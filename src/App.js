@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import * as request from 'superagent';
-import DogList from './components/DogList';
+//import DogsList from './components/DogsList';
+import DogsListContainer from './components/DogListContainer';
 
 class App extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class App extends React.Component {
       <div className='App'>
         <header className='App-header'>
           <main>
-            <DogList />
+            <DogsListContainer />
           </main>
         </header>
       </div>
